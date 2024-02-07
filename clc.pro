@@ -10,9 +10,13 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
+    model.cpp \
+    presenter.cpp \
     view.cpp
 
 HEADERS += \
+    model.h \
+    presenter.h \
     view.h
 
 FORMS += \
