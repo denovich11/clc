@@ -15,6 +15,7 @@ SOURCES += \
     view.cpp
 
 HEADERS += \
+    intf.h \
     model.h \
     presenter.h \
     view.h
