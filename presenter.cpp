@@ -13,8 +13,6 @@ Presenter::Presenter(Intf *view, QObject *parent)
 void Presenter::refreshView() const
 {
     m_view->setCalcResult(m_model->result());
-    //if (m_model->result() == Model::Ok)
-    //    m_view->setSection(m_model->section());
 }
 void Presenter::processCalcAction()
 {

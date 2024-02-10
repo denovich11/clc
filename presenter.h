@@ -14,6 +14,7 @@ public:
     explicit Presenter(Intf *view, QObject *parent = 0);
 
 private:
+
     void refreshView() const;
 
     Model *m_model;
